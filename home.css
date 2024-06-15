@@ -1,0 +1,168 @@
+#nav{
+    height:50px;
+    background-color:#58614E ;
+    padding:50px;
+    position:static;
+    
+}
+
+#n{
+    color: aliceblue;
+    margin-left:27px ;
+    font-size: large;
+}
+
+#a{
+    margin-left: 700px; 
+}
+#im1{
+    display:inline-block;
+    position: absolute;
+    height: 400px;
+    width:500px;
+    right: 200px;
+    left: 0%;
+    position: relative;
+}
+body{
+    background: #E2E2E2;
+}
+div.c1{
+    margin-left: 20px;
+    width:200px;
+    float:left;
+    color:#4E5944
+}
+
+#d5{
+    display: inline-block;
+    background-color: #E2E2E2;
+    padding-left: 200px;
+    width:1500px;
+    border-top: white;
+    border-left:transparent;
+    border-right: transparent;
+    border-bottom: white;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#b1{
+    background-color: #434343;
+    color:white;
+}
+
+#h1{
+    color:#4E5944;
+}
+
+
+#i3{
+    border:white;
+    border-width: 8px;
+    border-style:groove;
+    
+}
+#main{
+    display: flex;
+    margin-left:300px;
+    margin-right: 300px;
+    border-width: 4px;
+    border-color:whitesmoke;
+    border-style:solid ;
+    background-color: #E9E9E9;
+
+}
+
+#te{
+    margin-top: 30px;
+    margin-left:40px;
+    color:#4E5944;
+}
+body{
+    background-color:#E2E2E2;
+}
+
+#d4{
+    background-color:#E9E9E9;
+    display: flex;
+    color:#4E5944;
+    border-top-width:2px ;
+    border-top-style:solid ;
+    border-top-color: whitesmoke;
+    border-bottom-width:2px ;
+    border-bottom-style:solid ;
+    border-bottom-color: whitesmoke;
+    padding-left: 250px;
+    padding-right:250px ;
+    
+}
+
+#dd41{
+    margin-right: 30px;
+    border-right-width:2px ;
+    border-right-style:solid ;
+    border-right-color:#D2D2D2;
+}
+
+
+#dd2{
+display: flex;
+padding-left: 200px;
+padding-right: 200px;
+background-color: #D2D2D2;
+}
+
+.d211{
+    margin-left: 20px;
+    
+}
+#id2{
+    border-left-width: 2px;
+    border-left-color:#C2C2C2 ;
+    border-left-style:solid ;
+    border-right-width: 2px;
+    border-right-color:#C2C2C2 ;
+    border-right-style:solid ;
+    padding-left:10px;
+}
+#bb1{
+    background-color: gray;
+    color:#F3F3F5;
+    width:240px;
+    height:32px;
+}
+#bb1:hover{
+    background-color:#444444;
+}
+
+#d31{
+    display:inline-block;
+    width:100px;
+    position:relative;
+    left:200px;
+    top:10px;
+    margin-left:4px;
+}
+
+#tt{
+    position: relative;
+    left:750px;
+    font-size: smaller;
+    color:#B5B986;
+    bottom:10px;
+}
+#d3{
+    margin-bottom:70px;
+    position: relative;
+    bottom:7px;
+}
+#d3{
+    background-color: #4F5843;
+    height:40px;
+}
+#ii{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+}

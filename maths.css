@@ -1,0 +1,38 @@
+.arithmetic{
+    padding: 100px;
+    background-color: bisque;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-color: blue;
+    margin-left: auto;
+    color: blue;
+    background-image: url("maths.jfif");
+    background-repeat:round;
+    margin-left: 50px;
+    padding-left: 150px;
+}
+.j1{
+    font-size: 60px;
+    padding: 50px;
+    align-items: left;
+   align-self: center;
+}
+.c1{
+    align-items: left;
+    font-size: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.c2{
+    font-size: 50px;
+    display: flex;
+
+    padding: 20px;
+}
+.c3{
+    padding: 20px;
+    display: flex;
+}
+.c4{
+    padding: 20px;
+}
