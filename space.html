@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Travel Booking</title>
+    <link rel="stylesheet" href="space.css">
+</head>
+<body>
+    <header>
+        <h1>Space Travel Booking</h1>
+    </header>
+    <main>
+        <section class="booking-form">
+            <h2>Book Your Space Travel</h2>
+            <form id="bookingForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="destination">Destination:</label>
+                <select id="destination" name="destination" required>
+                    <option value="mars">Mars</option>
+                    <option value="moon">Moon</option>
+                    <option value="jupiter">Jupiter</option>
+                </select>
+
+                <label for="travelDate">Travel Date:</label>
+                <input type="date" id="travelDate" name="travelDate" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+            <div id="confirmationMessage"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Space Travel Inc. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const bookingForm = document.getElementById('bookingForm');
+    const confirmationMessage = document.getElementById('confirmationMessage');
+
+    bookingForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const destination = document.getElementById('destination').value;
+        const travelDate = document.getElementById('travelDate').value;
+
+        confirmationMessage.innerHTML = `
+            <p>Thank you, ${name}, for booking your space travel!</p>
+            <p>We have sent a confirmation to ${email}.</p>
+            <p>Destination: ${destination.charAt(0).toUpperCase() + destination.slice(1)}</p>
+            <p>Travel Date: ${new Date(travelDate).toDateString()}</p>
+        `;
+
+        bookingForm.reset();
+    });
+});
+    </script>
+</body>
+</html>
